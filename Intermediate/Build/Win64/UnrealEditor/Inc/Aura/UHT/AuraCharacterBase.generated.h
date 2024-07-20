@@ -19,7 +19,7 @@ private: \
 	static void StaticRegisterNativesAAuraCharacterBase(); \
 	friend struct Z_Construct_UClass_AAuraCharacterBase_Statics; \
 public: \
-	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
+	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
 	DECLARE_SERIALIZER(AAuraCharacterBase)
 
 
@@ -31,7 +31,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAuraCharacterBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAuraCharacterBase); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAuraCharacterBase) \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AAuraCharacterBase) \
 	NO_API virtual ~AAuraCharacterBase();
 
 

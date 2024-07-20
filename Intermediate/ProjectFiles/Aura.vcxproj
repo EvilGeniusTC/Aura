@@ -297,6 +297,9 @@
     <None Include="..\..\Aura.uproject"/>
     <None Include="..\..\Source\Aura.Target.cs"/>
     <None Include="..\..\Source\AuraEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
