@@ -7,14 +7,16 @@
 #include "InputActionValue.h"
 #include "Interaction/EnemyInterface.h"
 
-void AAuraPlayerController::PlayerTick(float DeltaTime)
-{
-	CursorTrace();
-}
 
 AAuraPlayerController::AAuraPlayerController()
 {
 	bReplicates = true;
+}
+
+void AAuraPlayerController::PlayerTick(float DeltaTime)
+{
+	Super::PlayerTick(DeltaTime);
+	CursorTrace();
 }
 
 void AAuraPlayerController::BeginPlay()

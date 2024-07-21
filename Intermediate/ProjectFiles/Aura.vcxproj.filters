@@ -71,6 +71,9 @@
     <ClCompile Include="..\..\Source\Aura\Private\Player\AuraPlayerController.cpp">
       <Filter>Source\Aura\Private\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Player\AuraPlayerState.cpp">
+      <Filter>Source\Aura\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Public">
       <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
     </Filter>
@@ -99,6 +102,9 @@
       <UniqueIdentifier>{92C9D14F-9ACD-3BE9-BD79-820E68D968CD}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerController.h">
+      <Filter>Source\Aura\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerState.h">
       <Filter>Source\Aura\Public\Player</Filter>
     </ClInclude>
   </ItemGroup>
