@@ -321,6 +321,9 @@
     <ClCompile Include="..\..\Source\Aura\Private\Character\AuraEnemy.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\Interaction\EnemyInterface.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Aura\Private\Player\AuraPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -328,6 +331,7 @@
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraCharacter.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraCharacterBase.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Character\AuraEnemy.h"/>
+    <ClInclude Include="..\..\Source\Aura\Public\Interaction\EnemyInterface.h"/>
     <ClInclude Include="..\..\Source\Aura\Public\Player\AuraPlayerController.h"/>
   </ItemGroup>
   <PropertyGroup>
