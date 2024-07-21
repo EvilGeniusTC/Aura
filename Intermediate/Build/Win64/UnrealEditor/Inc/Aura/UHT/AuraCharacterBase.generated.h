@@ -14,16 +14,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraCharacterBase_generated_h
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraCharacterBase(); \
 	friend struct Z_Construct_UClass_AAuraCharacterBase_Statics; \
 public: \
 	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
-	DECLARE_SERIALIZER(AAuraCharacterBase)
+	DECLARE_SERIALIZER(AAuraCharacterBase) \
+	virtual UObject* _getUObject() const override { return const_cast<AAuraCharacterBase*>(this); }
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AAuraCharacterBase(AAuraCharacterBase&&); \
@@ -35,12 +36,12 @@ public: \
 	NO_API virtual ~AAuraCharacterBase();
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_10_PROLOG
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_13_GENERATED_BODY \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_14_PROLOG
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
