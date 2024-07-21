@@ -37,14 +37,7 @@ struct Z_Construct_UClass_AAuraEnemy_Statics
 		{ "IncludePath", "Character/AuraEnemy.h" },
 		{ "ModuleRelativePath", "Public/Character/AuraEnemy.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHighlighted_MetaData[] = {
-		{ "Category", "AuraEnemy" },
-		{ "ModuleRelativePath", "Public/Character/AuraEnemy.h" },
-	};
 #endif // WITH_METADATA
-	static void NewProp_bHighlighted_SetBit(void* Obj);
-	static const UECodeGen_Private::FBoolPropertyParams NewProp_bHighlighted;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -52,15 +45,6 @@ struct Z_Construct_UClass_AAuraEnemy_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-void Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted_SetBit(void* Obj)
-{
-	((AAuraEnemy*)Obj)->bHighlighted = 1;
-}
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted = { "bHighlighted", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AAuraEnemy), &Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bHighlighted_MetaData), NewProp_bHighlighted_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAuraEnemy_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAuraEnemy_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AAuraEnemy_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AAuraCharacterBase,
 	(UObject* (*)())Z_Construct_UPackage__Script_Aura,
@@ -75,11 +59,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AAuraEnemy_Statics::Cla
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	Z_Construct_UClass_AAuraEnemy_Statics::PropPointers,
+	nullptr,
 	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	UE_ARRAY_COUNT(Z_Construct_UClass_AAuraEnemy_Statics::PropPointers),
+	0,
 	UE_ARRAY_COUNT(InterfaceParams),
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AAuraEnemy_Statics::Class_MetaDataParams), Z_Construct_UClass_AAuraEnemy_Statics::Class_MetaDataParams)
@@ -96,7 +80,6 @@ template<> AURA_API UClass* StaticClass<AAuraEnemy>()
 {
 	return AAuraEnemy::StaticClass();
 }
-AAuraEnemy::AAuraEnemy() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraEnemy);
 AAuraEnemy::~AAuraEnemy() {}
 // End Class AAuraEnemy
@@ -105,10 +88,10 @@ AAuraEnemy::~AAuraEnemy() {}
 struct Z_CompiledInDeferFile_FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 2169043975U) },
+		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 2108987190U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraEnemy_h_2923102056(TEXT("/Script/Aura"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraEnemy_h_3617324192(TEXT("/Script/Aura"),
 	Z_CompiledInDeferFile_FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
