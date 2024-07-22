@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraHUD_generated_h
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraHUD(); \
 	friend struct Z_Construct_UClass_AAuraHUD_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraHUD)
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~AAuraHUD();
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_12_PROLOG
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_15_GENERATED_BODY \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_16_PROLOG
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_UI_HUD_AuraHUD_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

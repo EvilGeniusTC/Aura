@@ -110,6 +110,9 @@
     <ClCompile Include="..\..\Source\Aura\Private\UI\WidgetController\AuraWidgetController.cpp">
       <Filter>Source\Aura\Private\UI\WidgetController</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Aura\Private\UI\WidgetController\OverlayWidgetController.cpp">
+      <Filter>Source\Aura\Private\UI\WidgetController</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Public">
       <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
     </Filter>
@@ -177,6 +180,9 @@
       <UniqueIdentifier>{3BCD7258-E95C-3A59-ACAC-9F88D343DD76}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Aura\Public\UI\WidgetController\AuraWidgetController.h">
+      <Filter>Source\Aura\Public\UI\WidgetController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Aura\Public\UI\WidgetController\OverlayWidgetController.h">
       <Filter>Source\Aura\Public\UI\WidgetController</Filter>
     </ClInclude>
   </ItemGroup>
