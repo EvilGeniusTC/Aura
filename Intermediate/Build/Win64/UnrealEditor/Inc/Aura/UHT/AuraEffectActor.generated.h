@@ -16,11 +16,13 @@ class UGameplayEffect;
 #endif
 #define AURA_AuraEffectActor_generated_h
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap); \
 	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -29,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AAuraEffectActor(AAuraEffectActor&&); \
@@ -41,13 +43,13 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_11_PROLOG
-#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_GENERATED_BODY \
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_26_PROLOG
+#define FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,4 +60,11 @@ template<> AURA_API UClass* StaticClass<class AAuraEffectActor>();
 #define CURRENT_FILE_ID FID_Users_travi_OneDrive_Documents_Unreal_Projects_Aura_Source_Aura_Public_Actor_AuraEffectActor_h
 
 
+#define FOREACH_ENUM_EEFFECTAPPLICATIONPOLICY(op) \
+	op(ApplyOnOverlap) \
+	op(ApplyOnEndOverlap) \
+	op(DoNotApply) 
+#define FOREACH_ENUM_EEFFECTREMOVALPOLICY(op) \
+	op(RemoveOnEndOverlap) \
+	op(DoNotRemove) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
