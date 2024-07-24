@@ -10,7 +10,6 @@
 class UAbilitySystemComponent;
 struct FActiveGameplayEffectHandle;
 
-
 UENUM(BlueprintType)
 enum EEffectApplicationPolicy
 {
@@ -75,7 +74,6 @@ protected:
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category = "Applied Effects")
 	TEnumAsByte<EEffectRemovalPolicy> InfiniteEffectRemovalPolicy = EEffectRemovalPolicy::RemoveOnEndOverlap;
-
 	
 	TMap<FActiveGameplayEffectHandle, UAbilitySystemComponent*> ActiveEffectHandles;
 
