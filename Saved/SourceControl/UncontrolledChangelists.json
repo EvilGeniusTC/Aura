@@ -11,7 +11,11 @@
 				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalMana.uasset",
 				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Area/GE_FireArea.uasset",
 				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Area/BP_FireArea.uasset",
-				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Maps/StartupMap.umap"
+				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Maps/StartupMap.umap",
+				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Potion/CT_PotionHeal.uasset",
+				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset",
+				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Potion/CT_Potion.uasset",
+				"C:/Users/travi/OneDrive/Documents/Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset"
 			]
 		}
 	]
